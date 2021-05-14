@@ -56,6 +56,10 @@ PRODUCT_PACKAGES += \
     SettingsSpes \
     SystemUISpes
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
